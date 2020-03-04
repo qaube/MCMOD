@@ -48,7 +48,7 @@ public class MCreatorDesaturation extends Elementsemptydark.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 250));
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 500));
 	}
 
 	static class CustomBiome extends Biome {
@@ -73,7 +73,7 @@ public class MCreatorDesaturation extends Elementsemptydark.ModElement {
 			DefaultBiomeFeatures.addOres(this);
 			DefaultBiomeFeatures.addLakes(this);
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(new CustomTreeFeature(),
-					IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(16, 0.1F, 1)));
+					IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(20, 0.1F, 1)));
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -105,7 +105,7 @@ public class MCreatorDesaturation extends Elementsemptydark.ModElement {
 			if (!(worldgen instanceof IWorld))
 				return false;
 			IWorld world = (IWorld) worldgen;
-			int height = rand.nextInt(5) + 12;
+			int height = rand.nextInt(5) + 11;
 			boolean spawnTree = true;
 			if (position.getY() >= 1 && position.getY() + height + 1 <= world.getHeight()) {
 				for (int j = position.getY(); j <= position.getY() + 1 + height; j++) {
