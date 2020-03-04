@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "emptydark:blocks/greyoaktop",
+    "up": "emptydark:blocks/greyoaktop",
+    "north": "emptydark:blocks/greyoak1",
+    "east": "emptydark:blocks/greyoak1",
+    "south": "emptydark:blocks/greyoak1",
+    "west": "emptydark:blocks/greyoak1",
+    "particle": "emptydark:blocks/greyoaktop"
+  }
+}

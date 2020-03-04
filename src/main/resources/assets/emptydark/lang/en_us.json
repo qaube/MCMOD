@@ -1,1 +1,7 @@
-{}
+{
+  "block.emptydark.greydirt": "Grey Dirt",
+  "block.emptydark.greyoakleaves": "Grey Oak Leaves",
+  "block.emptydark.greyoakwood": "Grey Oak Wood",
+  "block.emptydark.greygrass": "Grey Grass",
+  "biome.emptydark.desaturation": "Desaturation"
+}

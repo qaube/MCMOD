@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "emptydark:blocks/greyoakleaves",
+    "up": "emptydark:blocks/greyoakleaves",
+    "north": "emptydark:blocks/greyoakleaves",
+    "east": "emptydark:blocks/greyoakleaves",
+    "south": "emptydark:blocks/greyoakleaves",
+    "west": "emptydark:blocks/greyoakleaves",
+    "particle": "emptydark:blocks/greyoakleaves"
+  }
+}
